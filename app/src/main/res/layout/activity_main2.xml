@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundp2"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/aboutTxt"
+        android:layout_width="327dp"
+        android:layout_height="611dp"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerInParent="true"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="sans-serif-black"
+        android:text="About\n\n
+Group: T5CS2703B\n
+Programme Code: CS270\n
+Course Code: ICT602\n\n
+Name: Muhammad Haikal bin Bakhtiar\n
+Matric ID: 2021856196
+\n\n\n\n\n\n\n
+**This app does calculate BMI and show the risk of an individual current BMI, by inserting Weight and Height**
+\n\n\n\n\n\n\n
+Created by Haikal for ICT602 on 2022 ©"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="62dp"
+        android:text="@string/hyperlink"
+        app:layout_constraintHorizontal_bias="0.709"
+        app:layout_constraintVertical_bias="0.788" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="37dp"
+        android:layout_marginEnd="4dp"
+        android:text="BMI Calculator"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/gitURL"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="-60dp"
+        android:layout_marginBottom="10dp"
+        android:autoLink="all"
+        android:clickable="true"
+        android:text="https://github.com/haikalbakhtiar/IndividualAssignment"
+        android:textColor="#0420CD"
+        android:textColorHighlight="#032CA5"
+        android:textColorLink="#0B1DBC"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</RelativeLayout>
